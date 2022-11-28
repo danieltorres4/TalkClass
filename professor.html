@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>TalkClass: Oral Tests</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
+        <link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+			integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+			crossorigin="anonymous"
+		/>
+        <link rel="stylesheet" href="build/css/app.css">
+	</head>
+	<body>
+        <header class="header">
+            <div class="contenedor contenido-header">
+                <h1>TalkClass: Oral Tests</h1>
+                <nav class="navegacion-principal">
+					<a href="start.html">Start</a>
+                    <a href="professor.html">Professor</a>
+                    <a href="student.html">Student</a>
+					<a href="#">About us</a>
+                </nav>
+            </div>
+        </header>
+
+		<section class="professor bg-blue">
+			<h3>It's time to add your questions</h3>
+
+			<div class="contenedor contenedor-questions">
+				<div class="anadir preguntas">
+					<header class="preguntas-header">
+						<p>Add your questions one at a time</p>
+					</header>
+	
+					<div class="form">
+						<input type="text" class="todo" id="texto" placeholder="Write your question..."/>
+						<button id="addButton"><i class="fas fa-plus"></i></button>
+					</div>
+	
+				</div>
+
+				<div class="resultado pregunta">
+					<header class="preguntas-header">
+						<p>Questions</p>
+					</header>
+
+					<div class="tasks" id="tasks">
+						<!--<div class="task__item">
+							<input type="text" disabled />
+							<button class="edit"><i class="fa fa-edit"></i></button>
+							<button class="speak"><i class="fas fa-volume-up"></i></button>
+							<button class="delete"><i class="fas fa-trash"></i></button>
+						</div> -->
+						
+					</div>
+
+					
+				</div>
+
+				<div class="resultado pregunta">
+					<p>Number of questions that you want to choose</p>
+					<input type="text" placeholder="Number of questions that you want to choose">
+				</div>
+
+			</div>
+		</section>
+
+		<footer class="site-footer">
+			<p>TalkClass: Oral Tests. All rights reserved</p>
+		</footer>
+
+		<script src="js/vr.js"></script>
+	</body>
+</html>
